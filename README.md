@@ -76,7 +76,7 @@ Note: A sequence does not have a line break in the merged AXT file.
 ```
 > Merged.AXT
 for file in `ls  *.axt`;do
-  Ln=`sed '/^$/d' axt/$file | wc -l`
+  Ln=$((`sed '/^$/d' axt/$file | wc -l`/2+1))
   if [ $Ln -ne 0 ];then
      sed "$Ln a \%" axt/$file | sed '1 a \%' | tr -d "\n" | tr "%" "\n" >> sample/${n}/$2.AXT &
   fi
