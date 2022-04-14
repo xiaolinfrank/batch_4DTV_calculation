@@ -5,7 +5,7 @@ This script was based on the "[calculate_4DTV_correction.pl](https://github.com/
 
 The old script can only calculate 4DTV for a pair of sequences at a time, which are contained in an axt file.
 In general, there is nothing wrong with this approach.
-However, in the case of heavy computation, this not only slows down the progress, but also tends to cause the computer to crash
+However, in the case of heavy computation, this not only slows down the progress, but also tends to cause the process to crash.
 
 ## Merge axt files
 If you have many axt files:
