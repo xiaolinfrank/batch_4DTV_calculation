@@ -1,5 +1,5 @@
 # batch_4DTV_calculation
-**Calculate 4DTV (transversion rate on 4-fold degenerated sites) much more faster with batch axt files**
+**Calculate 4DTV (transversion rate on 4-fold degenerated sites) faster with batch axt files**
 
 This script was based on the "[calculate_4DTV_correction.pl](https://github.com/JinfengChen/Scripts/blob/master/FFgenome/03.evolution/distance_kaks_4dtv/bin/calculate_4DTV_correction.pl)"
 
