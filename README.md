@@ -1,6 +1,9 @@
 # batch_4DTV_calculation
 **Calculate 4DTV (transversion rate on 4-fold degenerated sites) faster with batch axt files**
 
+# Cite this script (batch_4DTV_calculation.pl)：
+Jianguo Lu, Peilin Huang, Jialiang Sun, Jian Liu, DupScan: predicting and visualizing vertebrate genome duplication database, Nucleic Acids Research, 2022;, gkac718, https://doi.org/10.1093/nar/gkac718
+
 This script was based on the "[calculate_4DTV_correction.pl](https://github.com/JinfengChen/Scripts/blob/master/FFgenome/03.evolution/distance_kaks_4dtv/bin/calculate_4DTV_correction.pl)"
 
 The old script can only calculate 4DTV for a pair of sequences at a time, which are contained in an axt file.
